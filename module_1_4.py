@@ -1,0 +1,8 @@
+my_string = input('Напишите фразу из трех слов: ',)
+print("Вы написали: ",my_string)
+print('Количество символов в Вашей фразе: ',len(my_string))
+print('Ваша фраза в верхнем регистре: ',my_string.upper())
+print('Ваша фраза в нижнем регистре: ',my_string.lower())
+print('Ваша фраза без пробелов: ',my_string.replace(' ',''))
+print('Первый символ вашей фразы: ',my_string[0])
+print('Последний символ вашей фразы: ',my_string[-1])
